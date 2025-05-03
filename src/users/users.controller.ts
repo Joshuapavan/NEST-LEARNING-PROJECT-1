@@ -11,8 +11,9 @@ type User = {
 export class UsersController {
 
     users: User[] = [
-        { id: 1, name: 'Charlie'},
-        { id: 2, name: 'Diana' },
+        { id: 1, name: 'John'},
+        { id: 2, name: 'Doe' },
+        { id: 3, name: "Josh"}
     ];
 
     @Get()
