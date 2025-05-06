@@ -42,7 +42,7 @@ export class UsersController {
         );
     
         const updatedUser = this.users.find((u) => u.id === userId);
-        return res.status(200).json(updatedUser);  // ← Now properly returns
+        return res.status(200).json(updatedUser);
     }
     
     @Put(":id")
@@ -59,7 +59,7 @@ export class UsersController {
         );
     
         const updatedUser = this.users.find((u) => u.id === userId);
-        return res.status(200).json(updatedUser);  // ← Add res.json here
+        return res.status(200).json(updatedUser);
     }
     
 
